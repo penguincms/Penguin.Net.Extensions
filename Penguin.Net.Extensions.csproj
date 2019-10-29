@@ -2,8 +2,8 @@
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-	<PackageProjectUrl>https://github.com/penguincms/Penguin.Net.Extensions</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/penguincms/Penguin.Net.Extensions</PackageProjectUrl>
     <Version>1.0.1</Version>
-	<Description>Extensions for objects in the System.Net namespace</Description>
+    <Description>Extensions for objects in the System.Net namespace</Description>
   </PropertyGroup>
 </Project>

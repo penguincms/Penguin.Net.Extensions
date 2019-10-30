@@ -5,5 +5,7 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Net.Extensions</PackageProjectUrl>
     <Version>1.0.1</Version>
     <Description>Extensions for objects in the System.Net namespace</Description>
+    <AssemblyName>Penguin.Net.Extensions</AssemblyName>
+    <RootNamespace>Penguin.Net.Extensions</RootNamespace>
   </PropertyGroup>
 </Project>

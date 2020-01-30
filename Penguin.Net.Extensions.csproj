@@ -7,5 +7,6 @@
     <Description>Extensions for objects in the System.Net namespace</Description>
     <AssemblyName>Penguin.Net.Extensions</AssemblyName>
     <RootNamespace>Penguin.Net.Extensions</RootNamespace>
+    <DocumentationFile>Penguin.Net.Extensions.xml</DocumentationFile>
   </PropertyGroup>
 </Project>

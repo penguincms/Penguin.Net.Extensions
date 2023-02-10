@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
+﻿using System.Diagnostics.Contracts;
 using System.IO;
 using System.Net;
 using System.Text;
@@ -8,6 +6,7 @@ using System.Text;
 namespace Penguin.Net.Extensions
 {
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+
     public static class WebExceptionExtensions
 #pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
     {
@@ -20,7 +19,7 @@ namespace Penguin.Net.Extensions
         {
             Contract.Requires(ex != null);
 
-            if (!(ex.Response.GetResponseStream() is MemoryStream responseStream))
+            if (ex.Response.GetResponseStream() is not MemoryStream responseStream)
             {
                 return null;
             }
